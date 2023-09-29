@@ -20,7 +20,7 @@ export default function Navbar() {
           </a>
           <a
           href="#contact"
-          className="inline-flex items-center font-mono text-yellow-300 bg-black border-0 py-1 rounded text-base mt-4 md:mt-0">
+          className=" mr-5 inline-flex sm:items-center font-mono text-yellow-300 bg-black">
           Say hello
           <HandIcon className="w-6 h-6 ml-1 animate-waving-hand hover:text-pink-900" />
         </a>
