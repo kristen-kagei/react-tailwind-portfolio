@@ -16,10 +16,10 @@ export default function Skills() {
         </div>
         <div className="flex flex-wrap">
           {skillsAndDescriptions.map((skill) => (
-            <button key={skill} className="p-2 w-1/5">
-              <div className="flex p-4 h-full items-center rounded border from-blue-700 hover:bg-blue-400">
+            <button key={skill} className="p-2 w-1/7">
+              <div className="flex p-4 h-full sm:items-center from-blue-700 hover:bg-blue-400">
                 <CheckCircleIcon className=" text-green-700 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium font-mono text-black">
+                <span className="title-font sm:font-medium font-mono text-black">
                   {skill.skill}
                 </span>
               </div>
